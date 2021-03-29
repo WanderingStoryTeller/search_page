@@ -9,10 +9,10 @@ html,body{
 }
 
 *{
-    /*border: 1px solid #73AD21;*/
+    /*border: 1px solid #73AD21;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
-    box-sizing: border-box;
+    box-sizing: border-box;*/
 }
 
 .info{
@@ -20,12 +20,17 @@ html,body{
     font-size: small;
 }
 
+.logo_container{
+   /* margin-top: 25%;*/
+}
+
 .logo{
     display: block;
-    margin-top: 200px;
+    /*margin-top: 200px;*/
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 25px;
+    margin-top: 12%;
 }
 
 .search_form{
@@ -38,6 +43,10 @@ html,body{
     margin-bottom: 25px;
     border-color: none;
     border-style: solid;
+    background-image: url(https://cdn2.hubspot.net/hubfs/4004166/bioticresearch_website_assets/images/search_icon.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    width: 30%;
 }
 
 .generic_menu{
@@ -76,10 +85,14 @@ html,body{
 .adverts{
     float:left;
     margin-top: 5px;
+    padding-top: 5px;
+    padding-left:5px;
 }
 
 .legal{
     float:right;
+    padding-top: 15px;
+    padding-left: 5px;
 }
 
 .logo_container{
@@ -105,18 +118,10 @@ a:hover{
     text-decoration: underline;
 }
 
-.button{
-    background-color: #f5f5f5;
-    border:none;
-    color:#707070;
-    font-size:15px;
-    padding: 10px 20px;
+.btn{
     margin:5px;
-    border-radius:4px;
-    outline:none;
-  }
-  .button:hover{
-    border: 1px solid #c8c8c8;
-    padding: 9px 19px;
-    color:#808080;
+    border: none;
+    padding: 7px 14px;
+    font-size: 14px;
+    border-radius: 5px;
   }
